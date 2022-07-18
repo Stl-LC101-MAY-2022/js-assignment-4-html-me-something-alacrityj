@@ -1,1 +1,140 @@
 /* Write your CSS here! */
+a:link {
+    color: #FF98CE;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EC3AAA;
+}
+
+a:visited {
+    color:#008b8b;
+}
+
+html {
+    background-image: url("images/boardGrey.jpg");
+    background-color:cyan;
+    background-blend-mode:darken;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    text-align: justify;
+    margin: 8px;
+    display: block;
+}
+
+.container {
+    background: #ffffff;
+    width: 65%;
+    margin: 0 auto;
+    border: 12px solid #B22222;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+header {
+    background-image: url("images/boardSlice.jpg");
+    background-size: 100%;
+    background-color: rgb(196, 167, 173);
+    background-blend-mode:darken;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    color: #ffffff;
+    border-bottom: #B22222 solid 6px;
+    text-align: center;
+    
+    
+}
+
+h1 { 
+    /* background-color: #ffffffD9;  */
+    padding: 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    /* font-size: 2.5em; */
+    /* -webkit-text-stroke-width: .5px; */
+    /* -webkit-text-stroke-color: #B22222 ; */
+}
+
+h1, h2, h3, p {
+    margin-right: 7.5%;
+    margin-left: 7.5%;
+}
+
+h2, h3 {
+    color:#B22222;
+    text-transform: uppercase;
+    text-align: left;
+}
+h4 {
+    text-align: center;
+    color:#FF98CE
+}
+
+img {
+    border: 3px solid darkcyan;
+  }
+
+ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+ul li:before {
+    content: "\2665  ";
+    color: #FF98CE;
+}
+
+p {
+    margin-bottom: 35px;
+    margin-top: -10px;
+}
+
+#supplies {
+    text-align: center;
+}
+
+#mls {
+    display: block;
+        float: right;
+        margin-left: 3%; 
+        margin-right: 7.5%;
+        margin-top: -5px;
+        width: 15%;
+}
+
+#handle {
+        display: block;
+        float: left;
+        margin-left: 7.5%; 
+        margin-right: 3%;
+        margin-top: -5px;
+        width: 10%;
+      } 
+
+.center {
+    width: 50%;
+    margin-left: 25%; 
+    margin-right: 25%;
+    margin-bottom: 5%;
+}
+
+footer{
+    text-align: center;
+}
+
+/* getting this bad boi to pass CSS edition */
+#mainHeading {
+    color:red;
+}
+
+.funParagraph {
+    color:green;
+}
