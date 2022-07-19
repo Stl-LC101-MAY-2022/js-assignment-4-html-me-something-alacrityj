@@ -13,17 +13,20 @@ a:visited {
     color:#008b8b;
 }
 
-html {
+/* html {
     background-image: url("images/boardGrey.jpg");
     background-color:cyan;
     background-blend-mode:darken;
-}
+} */
 
 body {
     font-family: Helvetica, sans-serif;
     text-align: justify;
     margin: 8px;
     display: block;
+    background-image: url("images/boardGrey.jpg");
+    background-color:cyan;
+    background-blend-mode:darken;
 }
 
 .container {
@@ -129,6 +132,7 @@ p {
 footer{
     text-align: center;
     margin-bottom: 10px;
+    color: #ffffff;
 }
 
 /* getting this bad boi to pass CSS edition */
